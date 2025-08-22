@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "Micro Habit",
+    "slug": "micro-habit",
+    "scheme": "microhabit",
+    "runtimeVersion": { "policy": "sdkVersion" },
+    "sdkVersion": "53.0.0",
+    "plugins": [
+      "expo-router",
+      "@react-native-async-storage/async-storage",
+      "expo-notifications"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.YOURNAME.microhabit",
+      "buildNumber": "1",
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSUserTrackingUsageDescription": "We use notifications to remind you of habits."
+      }
+    },
+    "android": {
+      "package": "com.YOURNAME.microhabit",
+      "versionCode": 1
+    },
+    "extra": {
+      "router": { "origin": "expo" }
+    }
+  }
+}
